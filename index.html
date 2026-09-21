@@ -4,6 +4,26 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, inital-scale=1.0" />
         <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="./styles.css" />
     </head>
-    <body></body>
+    <body>
+        <header></header>
+        <main>
+            <h1>Ocean Microplastic Calculator</h1>
+            <p>Input 2 years and I will tell you the amount of microplastics that entered into the oceans between the 2 years.</p>
+            <div>
+                <input type="number" id="startDate" placeholder="Start Year">
+                <p></p>
+                <input type="number" id="endDate" placeholder="End Year">
+                <p></p>
+                <button onclick="Calculate()">Calculate</button>
+                <p></p>
+            </div>
+            <img src="./imgs/microPlastic.png" alt="Microplastics"/>
+            <p></p>
+            <a href="https://www.sas.org.uk/plastic-pollution/plastic-pollution-facts-figures/">Source</a>
+        </main>
+        <footer></footer>
+    </body>
+    <script src="./script.js"></script>
 </html>
