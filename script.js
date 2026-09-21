@@ -9,7 +9,6 @@ function Calculate(){
             return;
         }else{
             alert('Make sure the 2 years aren\'t the same year');
-            return;
         }
     }
     alert('The ocean gained ' + data + ' million tonnes of microplastic between those 2 years'+((data>100)?'!':'.'));
